@@ -244,6 +244,10 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
 }
+#restaurant-name:focus{
+	
+}
+
 #restaurant-img {
 	width: 100%;
 }
