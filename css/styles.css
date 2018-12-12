@@ -35,6 +35,20 @@ h1, h2, h3, h4, h5, h6 {
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+.skip-link {
+	position: absolute;
+	top:-40px;
+	left:0;
+	background:#BF1722;
+	color:white;
+	padding:8px;
+	z-index:100;
+}
+.skip-link:focus {
+	top:0;
+}
+
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
@@ -298,7 +312,7 @@ nav h1 a {
 	}
 	.inside #map-container {
 	  width: 90%;
-	  margin:0 auto 50px;
+	  margin:0 0 50px 8%;
 	  height: 500px;
 	  padding-top:0;
 	}
